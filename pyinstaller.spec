@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 %global pypi_name pyinstaller
 %global optflags %{optflags} -Wno-strict-aliasing
 
