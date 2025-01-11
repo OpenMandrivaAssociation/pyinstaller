@@ -18,6 +18,8 @@ dependencies into a single package.
 
 %prep
 %autosetup -n %{pypi_name}-%{version}
+# Force build of bootloader
+rm -r PyInstaller/bootloader
 
 %build
 %py_build
