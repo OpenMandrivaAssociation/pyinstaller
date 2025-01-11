@@ -1,4 +1,5 @@
 %global pypi_name pyinstaller
+%global optflags %{optflags} -Wno-strict-aliasing
 
 Name:           %{pypi_name}
 Version:        6.11.1
