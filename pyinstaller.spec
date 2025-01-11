@@ -38,3 +38,5 @@ rm -r PyInstaller/bootloader
 %{_bindir}/pyi-makespec
 %{_bindir}/pyi-set_version
 %{_bindir}/pyinstaller
+%{python_sitelib}/PyInstaller/
+%{python_sitelib}/pyinstaller-%{version}.dist-info
